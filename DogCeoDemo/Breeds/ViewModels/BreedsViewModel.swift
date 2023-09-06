@@ -38,6 +38,7 @@ class BreedsViewModel {
             for await (name, image) in group {
                 subBreedDict[name] = image
             }
+            print("#### test")
             return subBreedDict.map{ ($0, $1) }
         }
         
